@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:13c625e3-e01b-4658-b5ce-7980bf14e5f1</dc:identifier>
+    <dc:title>Cuentos de Tomás Carrasquilla</dc:title>
+    <dc:creator opf:role="aut">Tomás Carrasquilla</dc:creator>
+    <dc:language>es</dc:language>
+    <dc:date opf:event="modification">2014-06-22</dc:date>
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="cover.png" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/Prologo.xhtml" id="Prologo.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/En%20la%20Diestra%20de%20Dios%20Padre.xhtml" id="En_la_Diestra_de_Dios_Padre.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Simon%20el%20Mago.xhtml" id="Simon_el_Mago.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/San%20Antonito.xhtml" id="San_Antonito.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/El%20Prefacio%20de%20Francisco%20Vera.xhtml" id="El_Prefacio_de_Francisco_Vera.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/La%20Mata.xhtml" id="La_Mata.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/A%20la%20Plata.xhtml" id="A_la_Plata.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Rogelio.xhtml" id="Rogelio.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Blanca.xhtml" id="Blanca.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Dimitas%20Arias.xhtml" id="Dimitas_Arias.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/El%20Anima%20sola.xhtml" id="El_Anima_sola.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/El%20rifle.xhtml" id="El_rifle.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/sgc-toc.css" id="sgc-toc.css" media-type="text/css" />
+    <item href="Text/TOC.xhtml" id="TOC.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/cover.png" id="cover.png" media-type="image/png" />
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" />
+    <itemref idref="TOC.xhtml" />
+    <itemref idref="Prologo.xhtml" />
+    <itemref idref="En_la_Diestra_de_Dios_Padre.xhtml" />
+    <itemref idref="Simon_el_Mago.xhtml" />
+    <itemref idref="San_Antonito.xhtml" />
+    <itemref idref="El_Prefacio_de_Francisco_Vera.xhtml" />
+    <itemref idref="La_Mata.xhtml" />
+    <itemref idref="A_la_Plata.xhtml" />
+    <itemref idref="Rogelio.xhtml" />
+    <itemref idref="Blanca.xhtml" />
+    <itemref idref="Dimitas_Arias.xhtml" />
+    <itemref idref="El_Anima_sola.xhtml" />
+    <itemref idref="El_rifle.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/TOC.xhtml" title="Table Of Contents" type="toc" />
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>
